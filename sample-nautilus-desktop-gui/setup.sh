@@ -1,6 +1,6 @@
-NAME=INITIALS-desktop # Change this to your initials
-POD_NAME=INITIALS-carla # Change this to your initials
-CACHE_NAME=INITIALS-carla-cache # Change this to your initials
+NAME=js-desktop # Change this to your js
+POD_NAME=js-carla # Change this to your js
+CACHE_NAME=js-carla-cache # Change this to your js
 
 if [ "$1" -eq 1 ]; then
     kubectl delete deployment $NAME

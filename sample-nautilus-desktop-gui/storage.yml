@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: INITIALS-carla # Change this to your initials
+  name: js-carla # Change this to your js
 spec:
   storageClassName: rook-ceph-block
   accessModes:
